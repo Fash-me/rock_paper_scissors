@@ -1,4 +1,4 @@
-let userName = window.prompt("What is your name?") // The user will input a name.
+let userName = window.prompt("What is your name?").toUpperCase() // The user will input a name.
 
 let word = ['Rock', 'Paper', 'Scissors']; //The list of variable the computer will select from.
 
@@ -36,12 +36,12 @@ function game(){
         console.log(computerScore);
     }
     if (computerScore > playerScore) {
-        alert("Computer won " + computerScore + " - " + playerScore)
+        alert("COMPUTER won " + computerScore + " - " + playerScore)
     } else if (playerScore > computerScore) {
         alert(userName + " won " + playerScore + " - " + computerScore)
     }
     else {
-        alert("Better luck next time, it is a  tie game " + playerScore + " - " + computerScore)
-    }
-} //This function will play 5 rounds and determine the winner
+        alert("Better luck next time " + userName + ", it is a  tie game " + playerScore + " - " + computerScore)
+    };
+};//This function will play 5 rounds and determine the winner
 game();
