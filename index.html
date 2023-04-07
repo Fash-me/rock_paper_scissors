@@ -5,15 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script href = "app.js" defer></script>
+    <script src = "app.js" defer></script>
     <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-    <div>
-        <h1>ROCK PAPER SCISSORS</h1>
-    <P>Play the game.</P>
+    <div id = 'intro'>
+        <h1 id = "header">ROCK PAPER SCISSORS</h1>
+    <P id = 'wc-Player'></P>
+    <P> Do you have what it takes to defeat me? If you win this game, you will be my master. But if I defeat you, I will
+        take over the world ha-ha-hah!
+    </P>
     </div>
-</body>
 
-<script src = "javascript.js"></script>
+    <h2>Let's Get Started </h2>
+
+    <div id = 'container'>
+        <button id = 'rock-btn'> <img src = images/kisspng-clip-art-5afae53db069c5.4116685015263921257226-removebg-preview_250x250.png alt = "rock"> </button>
+        <button id = 'paper-btn'> <img src = images/images-removebg-preview_250x250.png alt = "paper">  </button>
+        <button id = 'scissors-btn'> <img src = images/606-6068998_scissors-clipart-no-background-hd-png-download-removebg-preview_250x250.png alt = "scissors"> </button>
+    </div>
+    <div id = "play">
+        <p id = "com-play"></p>
+        <p id = "comment"></p>
+        <p id = "ply-score"></p>
+        <p id = "com-score"></p>
+    </div>
+    <div id = "restart">
+        <button id = "restart-game">RESTART</button>
+    </div>
+
+    <dialog  class="show-pop-up" id = "pop-up">
+        <p id = "declearin-winner"></p>
+        <button id = "next-player">Next Player</button>
+    </dialog>
+    <footer>
+        <div id = "footer">
+            <p>
+                copyright © 2023 Fash-me
+                <a href="https://github.com/Fash-me"><img id = "github" src = "images/download-removebg-preview.png" alt = "github icon"></a>
+            </p>
+        </div>
+    </footer>
+</body>
 </html>

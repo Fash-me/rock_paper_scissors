@@ -1,3 +1,109 @@
-/* body {
-    background-color: blueviolet;
-} */
+/* Body of the webpage */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("images/inkpendude-portal-storm.gif");
+    color: #fff;
+}
+
+/* Top Header */
+#intro h1 {
+    color: rgb(225, 225, 146);
+    font-family: 'luminari', 'lucidatypewriter', 'Lucida Sans Typewriter';
+    font-weight: bolder;
+    font-size: 46px;
+}
+
+/* Body after  the header */
+#intro {
+    text-align: center;
+    font-size: 23px;
+    
+} 
+#wc-Player {
+    font-size: 32px;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+/* selectoin */
+#container {
+    display:flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 30px 70px;
+    padding: 50px;
+}
+button:hover {
+    box-shadow: 0 0 3px black;
+    margin-top: -10px;
+}
+
+ /* Score board */
+#play {
+    background-color: rgb(73, 151, 149);
+    text-align: center;
+    margin: 0px -5px;
+    padding: 10px;
+    font-size: 23px;
+}
+
+/* pop Up */
+#pop-up {
+    width: 400px;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 0px 30px 30px;
+    border-color: black;
+}
+#pop-up::backdrop {
+    background: linear-gradient(45deg, red, blue);
+    opacity: .4;
+}
+#next-player {
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#next-player:hover {
+    background-color: rgb(225, 225, 146);
+    color: #0e296d;
+}
+
+/* Restart button */
+#restart {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+#restart-game {
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#restart-game:hover {
+    background-color: rgb(225, 225, 146);
+    color: #0e296d;
+}
+
+/* footer */
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 23px;
+    padding: 30px;
+}
+#github {
+    width: 30px;
+}
+#github:hover {
+    box-shadow: 0 0 3px black;
+    margin-top: -10px;
+}
